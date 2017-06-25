@@ -2,10 +2,9 @@
 cd ~
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/core
-brew tap homebrew/services
 brew tap homebrew/bundle
 brew tap caskroom/cask
+brew tap homebrew/services
 brew bundle
 nvm install node 6.10.3
 npm install -g yarn@0.21.3
