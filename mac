@@ -7,4 +7,5 @@ brew tap homebrew/services
 brew tap homebrew/bundle
 brew tap caskroom/cask
 brew bundle
+nvm install node 6.10.3
 npm install -g yarn@0.21.3
